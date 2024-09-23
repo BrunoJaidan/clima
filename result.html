@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="result-styles.css">
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="img/1154-143492926.mp4" type="video/mp4">
+    </video>
+    <div class="weather-container">
+
+        <div class="weather-card">
+            <h1 id="city-name">Cidade</h1>
+            <div class="temperature-details">
+                <p class="temperature" id="temperature">20°C</p>
+                <p class="description" id="description">Descrição do clima</p>
+            </div>
+            <div class="extra-info">
+                <div class="info-item">
+                    <img src="img/weather.png" alt="img" id="img-umidade">
+                    <p>Umidade</p>
+                    <span id="humidity">50%</span>
+                </div>
+                <div class="info-item">
+                    <img src="img/Vector.png" alt="img" id="img-vento">
+                    <p>Vento</p>
+                    <span id="wind">10 km/h</span>
+                </div>
+                <div class="info-item">
+                    <img src="img/pressao.png" alt="img" id="img-pressao">
+                    <p>Pressão</p>
+                    <span id="pressure">1012 hPa</span>
+                </div>
+                <div class="info-item">
+                    <p>Máx/Mín</p>
+                    <span id="temp-max-min">22°C / 18°C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="result-script.js"></script>
+</body>
+</html>
